@@ -1,0 +1,27 @@
+{
+  "name": "my-turborepo1",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "dev:preview": "turbo run dev:preview",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,js,tsx,md}\"",
+    "test": "turbo run test"
+  },
+  "devDependencies": {
+    "eslint-config-custom": "*",
+    "prettier": "latest",
+    "turbo": "latest"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {},
+  "packageManager": "npm@8.18.0"
+}

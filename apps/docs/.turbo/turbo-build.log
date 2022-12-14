@@ -1,0 +1,37 @@
+
+> docs@0.0.0 build
+> next build
+
+warn  - You have enabled experimental feature (transpilePackages) in next.config.js.
+warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+info  - Linting and checking validity of types...
+info  - Creating an optimized production build...
+(node:61581) [DEP_WEBPACK_MODULE_UPDATE_HASH] DeprecationWarning: Module.updateHash: Use new ChunkGraph API
+(Use `node --trace-deprecation ...` to show where the warning was created)
+info  - Compiled successfully
+info  - Collecting page data...
+info  - Generating static pages (0/5)
+info  - Generating static pages (1/5)
+rYc9aSfy7aEO00HKhxU4C
+so2n1a0JVvLEWd1sfjRDP
+info  - Generating static pages (2/5)
+yULVn2_D2pLS_nx-PP_CQ
+info  - Generating static pages (3/5)
+info  - Generating static pages (5/5)
+info  - Finalizing page optimization...
+
+Route (pages)                              Size     First Load JS
+┌ ○ /                                      285 B           100 kB
+├   └ css/ecd948767e096f78.css             27.2 kB
+├ ○ /404                                   181 B          72.3 kB
+├ ○ /csr                                   929 B          97.8 kB
+└ ○ /landing                               188 B           100 kB
++ First Load JS shared by all              72.2 kB
+  ├ chunks/framework-22108eb722d84e59.js   45.4 kB
+  ├ chunks/main-1410642799689f9b.js        25.7 kB
+  ├ chunks/pages/_app-03f04c30f397e7c8.js  196 B
+  └ chunks/webpack-c61f088a3e514ad0.js     868 B
+
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+
